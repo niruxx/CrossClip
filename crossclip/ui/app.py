@@ -99,7 +99,7 @@ class CrossClipApp:
                 ),
                 expand=True,
                 bgcolor=ft.Colors.SURFACE,
-                border=ft.border.Border.all(1, ft.Colors.OUTLINE_VARIANT),
+                border=ft.border.Border.all(1.5, ft.Colors.with_opacity(0.6, ft.Colors.PRIMARY)),
             )
         )
 
